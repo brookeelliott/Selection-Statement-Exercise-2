@@ -8,21 +8,21 @@
                 "Options: Math, Science, History, English, Spanish... or anything else you enjoy :)");
             string favSubject = Console.ReadLine();
 
-            switch (favSubject)
+            switch (favSubject.ToLower())
             {
-                case "Math":
+                case "math":
                     Console.WriteLine("Cool I like math to!");
                     break;
-                case "Science":
+                case "science":
                     Console.WriteLine("Science is cool, it literally explains the world!");
                     break;
-                case "History":
+                case "history":
                     Console.WriteLine("Ahh very cool, never stop learning history.");
                     break;
-                case "English":
+                case "english":
                     Console.WriteLine("Eww... Essays :(");
                     break;
-                case "Spanish":
+                case "spanish":
                     Console.WriteLine("Learning another language is super valuable.");
                     break;
                 default:
